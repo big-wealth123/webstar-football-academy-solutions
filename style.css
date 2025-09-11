@@ -90,11 +90,16 @@ section:nth-of-type(2) >aside >h1{
     padding: 25% 0 0 0;
     font-size: 50px;
 }
+footer:nth-of-type(1){
+    overflow: hidden;
+    /* white-space: nowrap; */
+}
 div:nth-of-type(1){
             display: flex;
     width: 100%;              /* 3 slides wide */
     /* height: 100vh; */
     animation: slideLeft 12s infinite;
+
 }
 .slide {
     width: 100%;
@@ -395,6 +400,14 @@ header main button:hover{
 
 @media (max-width: 956px) {
 
+@keyframes slideLeft {
+  0%, 20%   { transform: translateX(0); }
+  33%, 53%  { transform: translateX(-100%); }
+  66%, 86%  { transform: translateX(-200%); }
+    /* 100%       { transform: translateX(0); } */
+}
+
+
     header main:nth-of-type(1) p{
     font-size: 15px;
     }
@@ -491,6 +504,9 @@ header main button:hover{
         display: block;
         width: 90%;
         
+    }
+        div:nth-of-type(2) aside iframe{
+        margin: 2% 0 0 5%;
     }
     div:nth-of-type(2) aside a button{
           width: 90%;
@@ -607,6 +623,12 @@ figcaption aside img:nth-of-type(7),figcaption aside img:nth-of-type(8),figcapti
         margin: 0 0 0 0;
         padding: 12px 10px;
         display: none;
+    }
+    div:nth-of-type(2) aside iframe{
+        margin: 2% 0 0 5%;
+    }
+        div:nth-of-type(2) aside iframe a{
+        margin: 2% 0 0 1%;
     }
 }
 @media (max-width: 495px){
