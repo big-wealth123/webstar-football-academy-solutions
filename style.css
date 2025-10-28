@@ -362,7 +362,7 @@ header main button:hover{
 
 /* === Testimonials Section === */
 .testimonials-section {
-  background-color: #eafbea;
+  background-color: #386fe6ff;
   padding: 60px 20px;
   text-align: center;
 }
@@ -378,18 +378,18 @@ header main button:hover{
 .testimonials-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 25px;
+  gap: 35px;
   max-width: 1000px;
   margin: 0 auto;
 }
 
 .testimonial-card {
-  background: #fff;
+  background: #eb4561ff;
   border-left: 6px solid #d62828;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   border-radius: 12px;
-  padding: 25px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 75px;
+  /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
 }
 
 .testimonial-card:hover {
