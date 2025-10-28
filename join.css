@@ -4,7 +4,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 23px;
+}
 body {
   font-family: 'Segoe UI', sans-serif;
   background: linear-gradient(to right, #0d1b2a, #1b4332);
