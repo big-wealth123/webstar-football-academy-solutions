@@ -360,53 +360,6 @@ header main button:hover{
 
 
 
-/* === Testimonials Section === */
-.testimonials-section {
-  background-color: #386fe6ff;
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.testimonials-section h2 {
-  color: #006400;
-  font-size: 2em;
-  margin-bottom: 30px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.testimonials-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 35px;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.testimonial-card {
-  background: #eb4561ff;
-  border-left: 6px solid #d62828;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  border-radius: 12px;
-  padding: 75px;
-  /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
-}
-
-.testimonial-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-}
-
-.testimonial-card .quote {
-  font-style: italic;
-  color: #333;
-  margin-bottom: 15px;
-}
-
-.testimonial-card h4 {
-  color: #006400;
-  font-weight: bold;
-}
 
 
 
